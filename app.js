@@ -8,56 +8,71 @@ alert("Thank you for coming to my site " + greeting);
 let age = prompt ("I am 26 years old. Yes or no.").toLowerCase();
 console.log(age);
 
-if(age === "no" || "n"){
+if(age === "no" || age === "n"){
     alert ("Correct!"); 
     console.log("correct");
-}else{
-    alert ("I am 28.");
+}else if(age === "yes" || age === "y"){
+    alert ("Incorrect I am 28.");
     console.log("incorrect");
+}else{
+    console.log(age);
+    alert("You do not follow instructions...");
 }
 
 let kids = prompt("I have 1 son. Yes or no.").toLowerCase();
 console.log(kids);
 
-if(kids === "no" || "n"){
+if(kids === "no" || kids === "n"){
     console.log("correct");
     alert("Correct I have a daughter.");
-}else{
+}else if(kids === "yes" || kids === "y"){
     console.log("incorrect");
-    alert("I have a daughter.");
+    alert("Incorrect I have a daughter.");
+}else{
+    console.log(kids);
+    alert("You do not follow instructions...");
 }
 
 let job = prompt ("I was in the Army for six years. Yes or no.").toLowerCase();
 console.log(job);
 
-if (job === "yes" || "y"){
+if (job === "yes" || job === "y"){
     console.log("correct");
     alert("That is correct");
-}else{
+}else if(job === "no" || job === "n"){
     console.log("incorrect");
     alert("Incorrect I was in for six years.");
+}else{
+    console.log(job);
+    alert("You do not follow instructions...");
 }
 
 let education = prompt ("I have a degree in UAV applied science. Yes or no.").toLowerCase();
 console.log(education);
 
-if (education === "no" || "n"){
+if (education === "no" || education === "n"){
     console.log("correct");
     alert("Correct I have not finished that degree yet.");
-}else{
+}else if(education === "yes" || education === "y"){
     console.log("incorrect");
     alert("Incorrect I have not finished that degree yet.")
+}else{
+    console.log(education);
+    alert("You do not follow instructions...");
 }
 
 let goals = prompt("I want to become a game developer eventually. Yes or no.").toLowerCase();
 console.log(goals);
 
-if(goals === "yes" || "y"){
+if(goals === "yes" || goals === "y"){
     console.log("correct");
     alert("Correct once I get a better understanding and am fluid in programming I would really enjoy developing games.");
-}else{
+}else if(goals === "no" || goals === "n"){
     console.log("incorrect");
     alert("Incorrect I would love to become a game developer one day.")
+}else{
+    console.log(goals);
+    alert("You do not follow instructions...");
 }
 
 alert("Thank you for taking this quiz " + greeting);
