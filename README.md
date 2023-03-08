@@ -1,4 +1,4 @@
 # AboutMe
 About me page
 
-![image]("lighthouse.png")
+![image]("/home/coff23/projects/courses/code-201/projects/AboutMe/lighthouse.png")
