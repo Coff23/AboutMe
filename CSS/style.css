@@ -11,8 +11,6 @@ body{
     height: 100%;
     width: 97%;
     background-color: rgb(7,11,24);
-    display: flex;
-    flex-direction: column;
 }
 
 h1{
@@ -20,8 +18,12 @@ h1{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+/*code for the content bux was taken from https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers*/
+
 .content{
-    flex: 1 0 auto;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
 main{
@@ -34,5 +36,4 @@ main{
 .footer{
     text-align: center;
     color: white;
-    flex-shrink: 0;
 }
