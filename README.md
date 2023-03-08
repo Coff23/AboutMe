@@ -1,4 +1,4 @@
 # AboutMe
 About me page
 
-![image](lighthouse.png)
+![image](Images/lighthouse.png)

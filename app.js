@@ -69,7 +69,7 @@ if(goals === "yes" || goals === "y"){
     alert("Correct once I get a better understanding and am fluid in programming I would really enjoy developing games.");
 }else if(goals === "no" || goals === "n"){
     console.log("incorrect");
-    alert("Incorrect I would love to become a game developer one day.")
+    alert("Incorrect I would love to become a game developer one day.");
 }else{
     console.log(goals);
     alert("You do not follow instructions...");
