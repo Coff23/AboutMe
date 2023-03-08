@@ -91,7 +91,7 @@ if(goals === "yes" || goals === "y"){
 }
 
 let correctAnswers = q1 + q2 + q3 + q4 + q5;
-console.log(correctAnswers);
+console.log(correctAnswers + "/5");
 alert("Thank you for taking this quiz " + greeting + "you got " + correctAnswers + " out of 5 right!");
 
 
