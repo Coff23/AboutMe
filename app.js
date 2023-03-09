@@ -4,6 +4,23 @@ let greeting = prompt("Hello, welcome to my site. What is your name?");
 console.log(greeting);
 alert("Thank you for coming to my site " + greeting);
 
+/**
+ * 
+ * @param {String} question
+ * @param {String} answer
+ */
+function askQuestion(question, answer) {
+    let response = prompt(question).toLowerCase();
+    if (parseInt(response)) {
+        response = parseInt(response);
+    }
+    if (response === answer) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
 
 let age = prompt("I am 26 years old. Yes or no.").toLowerCase();
 console.log(age);
