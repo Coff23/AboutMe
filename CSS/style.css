@@ -34,6 +34,19 @@ main{
 }
 
 .footer{
+    width: 100%;
     text-align: center;
     color: white;
+    height: 60px;
 }
+
+ul {
+    list-style: none;
+    margin-bottom: 75px;
+}
+
+ol{
+   float: left; 
+   margin-left: 450px;
+}
+
