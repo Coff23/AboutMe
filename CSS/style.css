@@ -1,9 +1,12 @@
 a{
+    position: relative;
+    right: 20px;
     float: right;
     color: silver;
 }
 
 header{
+    height: 15%;
     padding-left: 50px;
 }
 
@@ -18,26 +21,35 @@ h1{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.topTen{
+    border: thin solid white;
+    padding-right: 20px;
+}
+
 /*code for the content bux was taken from https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers*/
 
 .content{
-    min-height: 100%;
+    border: thin solid white;
+    height: 100%;
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
 
 main{
+    height: 70%;
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
-    padding-top: 300px;
+    padding-top: 200px;
     text-align: center;
 }
 
 .footer{
+    height: 15%;
+    position: sticky;
+    top: 500px;
     width: 100%;
     text-align: center;
     color: white;
-    height: 60px;
 }
 
 ul {
