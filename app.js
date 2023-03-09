@@ -110,11 +110,11 @@ for (let i = 0; i < 4; i++) {
     }
 }
 
-let answer = ["hello", "hi", "yo"];
+let answer = ["valorant", "elden Ring", "csgo"];
 let numberOfGuesses = 6;
 let correctAnswer = false;
 while (numberOfGuesses > 0) {
-    let question = prompt("ways to say hi").toLowerCase();
+    let question = prompt("What is one of my top 3 favorite games?").toLowerCase();
     for (let i = 0; i < answer.length; i++) {
         console.log(answer[i]);
         console.log(question);
@@ -131,6 +131,7 @@ while (numberOfGuesses > 0) {
         alert("Incorrect");
         numberOfGuesses--;
     } else {
+        alert("possible answers were Valorant, Elden Ring, or csgo");
         break;
     }
 }
