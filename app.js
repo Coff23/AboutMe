@@ -1,10 +1,13 @@
 "use strict";
 
+function greetingResponse(){
 let greeting = prompt("Hello, welcome to my site. What is your name?");
 console.log(greeting);
 alert("Thank you for coming to my site " + greeting);
+}
+greetingResponse();
 
-
+function allQuestions(){
 let age = prompt("I am 26 years old. Yes or no.").toLowerCase();
 console.log(age);
 
@@ -89,7 +92,10 @@ if (goals === "yes" || goals === "y") {
     console.log(goals);
     alert("You do not follow instructions...");
 }
+}
+allQuestions();
 
+function numberGameAnswer(){
 for (let i = 0; i < 4; i++) {
     console.log();
     let numberGame = parseInt(prompt("Guess a number between 1-20"));
@@ -109,7 +115,10 @@ for (let i = 0; i < 4; i++) {
         console.log("incorrect")
     }
 }
+}
+numberGameAnswer();
 
+function multipleChoice(){
 let answer = ["valorant", "elden ring", "csgo"];
 let numberOfGuesses = 6;
 let correctAnswer = false;
@@ -136,6 +145,9 @@ while (numberOfGuesses > 0) {
         break;
     }
 }
+}
+multipleChoice();
+
 let correctAnswers = q1 + q2 + q3 + q4 + q5 + q6 + q7;
 console.log(correctAnswers + "/7");
 alert("Thank you for taking this quiz " + greeting + " you got " + correctAnswers + " out of 7 right!");
