@@ -113,6 +113,7 @@ for (let i = 0; i < 4; i++) {
 let answer = ["valorant", "elden Ring", "csgo"];
 let numberOfGuesses = 6;
 let correctAnswer = false;
+
 while (numberOfGuesses > 0) {
     let question = prompt("What is one of my top 3 favorite games?").toLowerCase();
     for (let i = 0; i < answer.length; i++) {
