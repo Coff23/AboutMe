@@ -110,7 +110,7 @@ for (let i = 0; i < 4; i++) {
     }
 }
 
-let answer = ["valorant", "elden Ring", "csgo"];
+let answer = ["valorant", "elden ring", "csgo"];
 let numberOfGuesses = 6;
 let correctAnswer = false;
 
