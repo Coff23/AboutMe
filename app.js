@@ -5,7 +5,6 @@ let greeting = prompt("Hello, welcome to my site. What is your name?");
 console.log(greeting);
 alert("Thank you for coming to my site " + greeting);
 
-
 function allQuestions() {
     let age = prompt("I am 26 years old. Yes or no.").toLowerCase();
     console.log(age);
@@ -139,9 +138,9 @@ function allQuestions() {
         }
     }
 
-let correctAnswersScore = q1 + q2 + q3 + q4 + q5 + q6 + q7;
-console.log(correctAnswersScore + "/7");
-alert("Thank you for taking this quiz " + greeting + " you got " + correctAnswersScore + " out of 7 right!");
+    let correctAnswersScore = q1 + q2 + q3 + q4 + q5 + q6 + q7;
+    console.log(correctAnswersScore + "/7");
+    alert("Thank you for taking this quiz " + greeting + " you got " + correctAnswersScore + " out of 7 right!");
 }
 allQuestions();
 
